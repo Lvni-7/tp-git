@@ -30,7 +30,7 @@ J'ai modifié la taille des dot de 15px a 20px puis commit("Increase size of dot
 
 Puis en local de 15px a 25px
 git add .
-git commit -m"img size 15px -> 25px version finale 2.0"
+git commit -m"img size 15px -> 25px"
 
 Ensuite quand j'ai fait un git pull un conflit est apparu car la taille des dots
 avait été modifiée différemment sur github (20px) et en local (25px)
@@ -40,7 +40,7 @@ en supprimant les lignes de conflit ajoutées par git
 
 Puis j'ai enregistré avec :
 git add .
-git commit -m"résolution du conflit sur la taille des dots"
+git commit -m"img size 15px -> 25px version finale 2.0"
 
 Enfin j'ai envoyé la version finale sur mon repo github
 git push
